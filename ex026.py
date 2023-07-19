@@ -1,0 +1,6 @@
+name = str(input('Digite uma frase: ')).strip().lower()
+x1 = name.count('a')
+print('Analisando sua frase...')
+print(f'{name} tem {x1} letras (a)')
+print('Ela aparece na posição', name.find('a')+1, 'pela primeira vez')
+print('E aparece pela ultima vez na posição', {name.rfind('a')+1})

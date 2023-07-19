@@ -1,0 +1,11 @@
+name = str(input('Qual seu nome completo? ')).strip()
+letras = len(name) - name.count(' ')
+#letrasP = name.find(' ')
+
+print('Analisando seu nome...')
+print(f'Seu nome em maiúsculas é {name.upper()}')
+print(f'Seu nome em minúsculas é {name.lower()}')
+print(f'Seu nome tem ao todo {letras} letras')
+#print(f'Seu primeiro nome tem {letrasP} letras')
+separa = name.split()
+print(f'Seu primeiro nome é {separa[0]} e ele tem {len(separa[0])} letras')
